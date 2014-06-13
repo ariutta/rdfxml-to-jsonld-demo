@@ -12,7 +12,8 @@ cd ./rdfxml-to-jsonld-demo
 npm install
 cd ./node_modules
 git clone https://github.com/ariutta/rdflib.js.git
-cd ./rdflib.js
+mv rdflib.js rdflib
+cd ./rdflib
 npm install
 make
 ```
