@@ -5,9 +5,9 @@ Demo converter from RDF/XML to JSON-LD in Node.js
 
 This is a rough demo that I got to work by cobbling together several modules:
 
-https://github.com/antoniogarrote/rdfstore-js (RDF/XML parser currently not working)
-https://github.com/linkeddata/rdflib.js/blob/master/rdfparser.js (for RDF/XML parser)
-https://github.com/digitalbazaar/jsonld.js/ (above two modules convert RDF/XML to n-quads, which jsonld.js can convert to JSON-LD)
+* https://github.com/antoniogarrote/rdfstore-js (RDF/XML parser currently not working)
+* https://github.com/linkeddata/rdflib.js/blob/master/rdfparser.js (for RDF/XML parser)
+* https://github.com/digitalbazaar/jsonld.js/ (above two modules convert RDF/XML to n-quads, which jsonld.js can convert to JSON-LD)
 
 Obviously, it could be significantly improved.
 
